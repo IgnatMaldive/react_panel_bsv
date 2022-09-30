@@ -17,25 +17,25 @@ function App() {
       <div className="container">
         <Sidebar />
         <Switch>
-          <Route exact path="https://ignatmaldive.github.io/react_panel_bsv/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="https://ignatmaldive.github.io/react_panel_bsv/users">
+          <Route path="/users">
             <UserList />
           </Route>
-          <Route path="https://ignatmaldive.github.io/react_panel_bsv/user/:userId">
+          <Route path="/user/:userId">
             <User />
           </Route>
-          <Route path="https://ignatmaldive.github.io/react_panel_bsv/newUser">
+          <Route path="/newUser">
             <NewUser />
           </Route>
-          <Route path="https://ignatmaldive.github.io/react_panel_bsv/products">
+          <Route path="/products">
             <ProductList />
           </Route>
-          <Route path="https://ignatmaldive.github.io/react_panel_bsv/product/:productId">
+          <Route path="/product/:productId">
             <Product />
           </Route>
-          <Route path="https://ignatmaldive.github.io/react_panel_bsv/newproduct">
+          <Route path="/newproduct">
             <NewProduct />
           </Route>
         </Switch>

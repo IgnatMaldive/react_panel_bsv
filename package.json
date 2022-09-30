@@ -1,7 +1,7 @@
 {
   "name": "01_lamaadmin",
   "version": "0.1.0",
-  "homepage": "http://IgnatMaldive.github.io/react_panel_bsv",
+  "homepage": "http://ignatmaldive.github.io/react_panel_bsv/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
